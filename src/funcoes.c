@@ -26,7 +26,7 @@ int capturaOpcao(){
 	int opcao;
 	scanf("%d", &opcao);
 	while (opcao < 0 || opcao > 7){
-		printf("Escolha uma op��o entre 0 e 7: ");
+		printf("Escolha uma opção entre 0 e 7: ");
 		scanf("%d", &opcao);
 	}
 	limpaBuffer();
@@ -255,3 +255,5 @@ void relatorioFinal(Ativo ativos[], int totalAtivos){
 	lucro(ativos, totalAtivos);
 	printf("\n");
 }
+	printf("===== Impacto Social ====\n\n");
+	prinf("Nosso simulador se conecta com o ODS 8, meta 8.10, que fala sobre ampliar o acesso das pessoas a serviços financeiros. Muita gente fica longe do mercado de investimentos por falta de informação ou medo de perder dinheiro, e o programa oferece um lugar seguro pra treinar. A pessoa cadastra os ativos e vê no relatório final a rentabilidade de cada um, o valor total e o lucro, entendendo na prática como a carteira funciona, sem arriscar dinheiro real. Como é simples e não exige conta em corretora, também pode ser usado em escolas e projetos de educação financeira\n")
